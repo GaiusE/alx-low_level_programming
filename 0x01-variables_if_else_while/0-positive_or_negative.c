@@ -1,4 +1,4 @@
-#include <stdio.h>
+i#include <stdio.h>
 #include <stblib.h>
 #include <time.h>
 
@@ -27,3 +27,4 @@ int main(void)
 	}
 
 	return (0);
+}
