@@ -9,9 +9,9 @@
  */
 int _strlen(char *s)
 {
-	int index;
+	int count = 0;
 
-	for (index = 0; s[index] != '\0' ; index++)
-
-	return (index);
+	while (*(s + count) != '\0')
+		count++;
+	return (count);
 }
