@@ -1,6 +1,6 @@
 /*
  * File: 2-strchr.c
- * Auth: learner 
+ * Auth: learner
  */
 
 #include "main.h"
