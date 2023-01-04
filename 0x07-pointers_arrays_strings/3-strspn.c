@@ -1,5 +1,5 @@
 /**
- *  _strspn - Gets the length of a prefix substring.
+ * _strspn - Gets the length of a prefix substring.
  * @s: The string to be searched.
  * @accept: The prefix to be measured.
  *
@@ -11,7 +11,7 @@ unsigned int _strspn(char *s, char *accept)
 	unsigned int bytes = 0;
 	int index;
 
-	while(*s)
+	while (*s)
 	{
 		for (index = 0; accept[index]; index++)
 		{
